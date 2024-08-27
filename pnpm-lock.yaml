@@ -9,7 +9,7 @@ importers:
   .:
     dependencies:
       '@fontsource-variable/inter':
-        specifier: 5.0.18
+        specifier: ^5.0.18
         version: 5.0.18
       lucide-react:
         specifier: 0.368.0
@@ -55,7 +55,7 @@ importers:
         specifier: 8.1.6
         version: 8.1.6(@jest/globals@29.7.0)(jest@29.7.0(@types/node@20.14.11))(vitest@1.6.0(@types/node@20.14.11))
       '@storybook/test-runner':
-        specifier: 0.17.0
+        specifier: ^0.17.0
         version: 0.17.0(@types/node@20.14.11)(storybook@8.1.6(@babel/preset-env@7.24.8(@babel/core@7.24.9))(react-dom@18.3.1(react@18.3.1))(react@18.3.1))
       '@types/react':
         specifier: 18.3.3
@@ -78,6 +78,9 @@ importers:
       axe-playwright:
         specifier: 2.0.1
         version: 2.0.1(playwright@1.45.2)
+      chromatic:
+        specifier: ^11.7.1
+        version: 11.7.1
       class-variance-authority:
         specifier: 0.7.0
         version: 0.7.0
@@ -2429,8 +2432,8 @@ packages:
     resolution: {integrity: sha512-bIomtDF5KGpdogkLd9VspvFzk9KfpyyGlS8YFVZl7TGPBHL5snIOnxeshwVgPteQ9b4Eydl+pVbIyE1DcvCWgQ==}
     engines: {node: '>=10'}
 
-  chromatic@11.5.5:
-    resolution: {integrity: sha512-YS0GJwegF0vpMbwZE68/xJlI4SlUGMqI78V2ATAF19YwTHaq8jGP1CPQGKUSlgWUhzPtyu3ELy6Dvv/owYljAg==}
+  chromatic@11.7.1:
+    resolution: {integrity: sha512-LvgPimdQdnQB07ZDxLEC2KtxgYeqTw0X71GA7fi3zhgtKLxZcE+BSZ/5I9rrQp1V8ydmfElfw0ZwnUH4fVgUAQ==}
     hasBin: true
     peerDependencies:
       '@chromatic-com/cypress': ^0.*.* || ^1.0.0
@@ -6454,7 +6457,7 @@ snapshots:
 
   '@chromatic-com/storybook@1.5.0(react@18.3.1)':
     dependencies:
-      chromatic: 11.5.5
+      chromatic: 11.7.1
       filesize: 10.1.4
       jsonfile: 6.1.0
       react-confetti: 6.1.0(react@18.3.1)
@@ -8633,7 +8636,7 @@ snapshots:
 
   chownr@2.0.0: {}
 
-  chromatic@11.5.5: {}
+  chromatic@11.7.1: {}
 
   ci-info@3.9.0: {}
 

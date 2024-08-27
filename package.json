@@ -11,7 +11,8 @@
     "preview": "vite preview",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
-    "prepare": "husky"
+    "prepare": "husky",
+    "chromatic": "npx chromatic --project-token=chpt_3bb1489b1c14bac"
   },
   "lint-staged": {
     "**/*": "prettier --write --ignore-unknown"
@@ -47,6 +48,7 @@
     "@vitejs/plugin-react": "4.3.0",
     "autoprefixer": "10.4.19",
     "axe-playwright": "2.0.1",
+    "chromatic": "^11.7.1",
     "class-variance-authority": "0.7.0",
     "clsx": "2.1.1",
     "eslint": "8.57.0",
